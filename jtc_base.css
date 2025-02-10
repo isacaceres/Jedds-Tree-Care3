@@ -1,0 +1,71 @@
+/* Name: [Isabella Caceres] */
+/* Date: [05 February 2025] */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header and Navigation */
+header {
+    background: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar (Aside) */
+aside {
+    background: #ecf0f1;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+aside img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    padding-left: 15px;
+    border-left: 4px solid #3498db;
+}
+
+cite {
+    display: block;
+    font-weight: bold;

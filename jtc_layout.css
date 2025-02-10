@@ -1,0 +1,82 @@
+/* Name: [Isabella Caceres] */
+/* Date: [05 February 2025] */
+
+/* Container Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Layout */
+header {
+    width: 100%;
+}
+
+/* Navigation Layout */
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Main Content Layout */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Sidebar (Aside) Layout */
+aside {
+    flex: 1;
+    min-width: 250px;
+    max-width: 30%;
+    margin-right: 20px;
+}
+
+/* Article Layout */
+article {
+    flex: 2;
+    min-width: 300px;
+    max-width: 65%;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Footer Layout */
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    article {
+        max-width: 100%;
+    }
+}
